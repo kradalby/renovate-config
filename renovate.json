@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "schedule": ["after 7am and before 10am every friday"],
+  "timezone": "Europe/London",
+  "engines": {
+    "node": {
+      "rangeStrategy": "widen"
+    }
+  },
+  "rangeStrategy": "bump"
+}
